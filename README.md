@@ -1,20 +1,32 @@
-# ⚡ToDo_Rust⚡
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust" />
-  <br/>
-</p>
-<br/><br/>
+# 📝 todo-rust
+
+A **blazingly fast** and easy-to-use **command-line todo app** written in Rust.  
+Manage your daily tasks right from your terminal, no GUI, just power.
 
 ---
 
-## Overview
+## 📦 Features
 
-This is a simple command-line interface (CLI) todo program written in Rust.
+- ✅ Add one or more tasks at once
+- 📋 List all, done, or pending tasks
+- ✏️ Mark tasks as done or undone
+- ❌ Remove specific tasks or clear them all
+- 🔃 Sort tasks by status or order
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/wajidjamali/todo-rust.git
+cd todo-rust
+```
 
 ## Installation
 
-To install this program, you'll need Rust installed on your system. If you don't have it installed, you can get it from [here](https://www.rust-lang.org/tools/install).
-
+To install this program, you'll need Rust installed on your system.
 Once Rust is installed, you can build the program using Cargo:
 
 ```bash
@@ -25,6 +37,12 @@ After successful compilation, you can copy the executable to a directory in your
 
 ```bash
 cp target/release/todo-rust /usr/local/bin/todo
+```
+## 2. Build the App
+
+```cargo build --release
+The compiled binary will be located at:
+./target/release/todo-rust
 ```
 
 ## Usage
@@ -46,15 +64,8 @@ The following commands are available:
 - `sort-undone` or `sort-undone-asc`: Sorts the tasks that are not completed in ascending order.
 - `sort-undone-dsc`: Sorts the tasks that are not completed in descending order.
 
-## Future Improvements
+# 📄 License
+See the LICENSE file for license rights and limitations.
 
-- **Backup Option**: Implement a backup option, utilizing a configuration file (`todo/config.ini`).
-- **Date and Time**: Add functionality to include date and time for tasks.
-- **Sort by Date-Time**: Implement sorting functionality based on date and time.
-- **Macros for File Operations**: Utilize macros for file operations, such as opening files with read or write permissions.
-- **Config Options**: Add configuration options to `todo/config`.
-- **Separate Function**: Create a separate function for managing configuration options.
-- **Use Colored Output**: Utilize colored output for better notifications.
-  #### In the future, additional features such as support handling more command-line arguments may be added.
-
----
+# 🧑‍💻 Author
+Made with ❤️ by Abdul Wajid
